@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook Video Scroller",
+  "version": "1.0",
+  "description": "A Google Chrome extension to scroll and control Facebook videos",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
