@@ -1,16 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Facebook Video Scroller",
+  "name": "active nfl",
   "version": "1.0",
-  "description": "A Google Chrome extension to scroll and control Facebook videos",
+  "description": "active nfl",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["*://*.facebook.com/*"],
+      "matches": ["*://*.netflix.com/*"],
       "js": ["content.js"]
     }
-  ],
-  "action": {
-    "default_popup": "popup.html"
-  }
+  ]
 }
